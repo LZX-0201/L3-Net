@@ -1,0 +1,26 @@
+name: probability_offset_model
+model_class: 'ProbabilityOffset'
+paras:
+  nx: 3
+  ny: 3
+  nphi: 3
+#  nx: 7
+#  ny: 7
+#  nphi: 7
+  nx_step: 0.05
+  ny_step: 0.05
+  nphi_step: 0.05
+#  backbone:
+#    config_file: model/mlp_backbone.yaml
+#    model_class: MLP
+#
+#  box_para_mean_head:
+#    config_file: model/mlp_mu_head.yaml
+#    model_class: MLP
+#
+#  box_para_std_head:
+#    config_file: model/mlp_sigma_head.yaml
+#    model_class: MLP
+
+  # mse gaussian_mle
+#  loss_type: gaussian_mle

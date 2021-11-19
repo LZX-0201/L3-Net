@@ -1,0 +1,7 @@
+dataset_class: MinistDataset
+paras:
+  batch_size: 256
+  data_root: /home/xlju/Project/ModelSimulator/data
+  for_train: true
+  num_workers: 4
+  shuffle: true

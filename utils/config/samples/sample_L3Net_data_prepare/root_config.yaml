@@ -1,0 +1,16 @@
+threshold: 2
+neighborhood_distance: 0.05
+k_neighbor: 40
+N: 128
+nx: 7
+ny: 7
+nphi: 7
+nx_step: 0.05
+ny_step: 0.05
+nphi_step: 0.05
+dataroot_load: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/HighWay237/2018-10-12/pcds/'
+save_root_map: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/processed_data/mapdata/map_data'
+save_root_online: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/processed_data/onlinedata/online_data'
+save_root_offset: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/processed_data/gt_offset.npy'
+gt_pose_path: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/HighWay237/2018-10-12/poses/gt_poses.txt'
+init_pose_path: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/HighWay237/2018-10-12/poses/init_poses.txt'

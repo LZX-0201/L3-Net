@@ -1,0 +1,19 @@
+dataset_class: HighWayDataset
+paras:
+  batch_size: 4
+  data_root: ../data/Apollo-SourthBay
+  for_train: true
+  num_workers: 0
+#  screen_no_dt: true
+#  resample_by: x
+  shuffle: true
+  online_data_root: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/processed_data/onlinedata/online_data'
+  map_data_root: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/processed_data/mapdata/map_data'
+  gt_offset_root: '/home/PJLAB/lizhaoxin/Downloads/HighWay237/Apollo-SourthBay/TrainData/processed_data/gt_offset.npy'
+
+  # discretize: True
+  # average: segments has same length
+  # balance: segments has same samples
+  #discretize_type: average
+
+

@@ -1,0 +1,20 @@
+# for train probability_offset_volume model using main/train.py on HighWay237
+dataset:
+  config_file: dataset/HighWay237.yaml
+  dataset_class: HighWayDataset
+logging:
+  ckpt_eph_interval: 50
+  path: ../output
+  suffix: 'only_box_dim_regression'
+model:
+  config_file: model/probability_offset_model.yaml
+  model_class: ProbabilityOffset
+training:
+  device: 'cuda:0'
+  epoch: 1000
+  alpha: 10000
+  optimizer:
+    paras:
+      lr: 0.001
+    type: Adam  # RMSprop
+  trainer_class: PoseErrRegressionTrainer
