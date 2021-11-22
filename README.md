@@ -7,5 +7,5 @@ First, we need to run  utils/save_prepared_data.py to preprocess the point cloud
 Second, we run main/train.py to train the model.
 Ps: You need to congif the model by modifying the files in uitls/config/samples/sample_L3Net_dataprepare and in uitls/config/samples/sample_L3Net to let it run in your won computer. Besides, set --cfg_dir="../utils/config/samples/sample_L3Net/" --batch_size=XX in Pycharm's edit configuratoin.
 
-The dataset can be find in https://apollo.auto/southbay.html
+The dataset can be found at https://apollo.auto/southbay.html
 Notice that this repository is used only for study, not for commerical use.
