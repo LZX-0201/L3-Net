@@ -50,7 +50,7 @@ pyton test_L3Net.py --cfg_dir="../utils/config/samples/sample_L3Net/" --check_po
 ```
 The test indicators is same with the paper, which include:
 
-**Horiz. RMS; Horiz. Max; Long. RMS; Lat. RMS; <0.05m Pct. ; <0.6m Pct. ; <0.7m Pct. ; <0.8m Pct. ; Yaw. RMS; Yaw. Max; <0.1° Pct. ; <0.3° Pct. ; <0.6° Pct. **
+**Horiz. RMS; Horiz. Max; Long. RMS; Lat. RMS; <0.05m Pct. ; <0.6m Pct. ; <0.7m Pct. ; <0.8m Pct. ; Yaw. RMS; Yaw. Max; <0.1° Pct. ; <0.3° Pct. ; <0.6° Pct.**
 
 ## Supplement
 1. This repository use the previous frame point cloud as the map.
